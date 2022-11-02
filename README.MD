@@ -1,37 +1,26 @@
-# 状态码：
-200 ：成功
+# Status Code：
+200 ：
 80004： 账号或密码错误
 80002： err
 小程序后端
 
-koa脚手架
+# Description
 
-npm i koa-generator -g
+- koa 
 
-koa2 server -e -ejs  //起脚手架
+- npm i koa-generator -g
 
-npm i  安装依赖
+- koa2 server -e -ejs  // startup koa 
 
-前端完成登录页面样式及登录请求
+- Front-end completion of login page style and login request
 
-将向后端请求的操作封装到util的request 
+- Encapsulate the operations requested from the backend in a util request 
 
-后端的controllers中用defaultconfig来配置数据库等一些默认配置
+- The back-end controllers use defaultconfig to configure the database and some other default configurations 
+- And add Login's query operation and then export it, and introduce methods in router users to perform login operations
 
-在mysqlconfig中连接线程池， 安装npm i mysql
-并且添加Login的查询操作再导出，在router users中引入方法，进行登录操作
-
-将前后端联系起来后再完善前端的一些样式 使用vant-weapp 
+- Linking the front and back ends and then refining some of the front-end styles using vant-weapp 
 npm i @vant/weapp -S --production
 
+- Configure the route : user.js
 
-
-配置路由user.js
-
-
-
-
-后端连接数据库
-
-写接口（api）
- 
