@@ -1,10 +1,9 @@
 # Status Code：
 200 ：
-80004： 账号或密码错误
+80004： Wrong account or password
 80002： err
-小程序后端
 
-# Description
+# Back-End Description
 
 - koa 
 
